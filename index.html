@@ -13,56 +13,33 @@
   </head>
 
   <body>
-    <!-- Parallax Pixel Background Animation -->
-    <section class="animated-background">
-      <div id="stars1"></div>
-      <div id="stars2"></div>
-      <div id="stars3"></div>
-    </section>
-    <!-- End of Parallax Pixel Background Animation -->
-
-    <a id="profilePicture" href="#popup">
-      <img src="https://avatars0.githubusercontent.com/u/103062346" alt="Profile Picture">
-    </a>
-
-    <div class="overlay" id="popup">
-      <div class="popup">
-        <div class="popup-photo">
-          <a href="https://avatars0.githubusercontent.com/u/103062346" target="_blank">
-            <img src="https://avatars0.githubusercontent.com/u/103062346" alt="Profile Picture">
-          </a>
+    <div class="tabs">
+      <div class="tabs__head">
+        <div class="tabs__toggle is-active">
+          <span class="tabs__name">First Tab</span>
         </div>
-        <div class="popup-quote">
-          I enjoy the taste potatoes leave in my mouth on a hot day.
+        <div class="tabs__toggle">
+          <span class="tabs__name">Second Tab</span>
         </div>
-        <a class="popup-close" onclick="history.back()">&times;</a>
+        <div class="tabs__toggle">
+          <span class="tabs__name">Third Tab</span>
+        </div>
+      </div>
+      <div class="tabs__body">
+        <div class="tabs__content is-active">
+          <h2 class="tabs__title">My socials</h2>
+          <p class="tabs__text">
+       <a class="link" href="https://github.com/Jeep012" target="_blank">
+        <i class="fab fa-github">&nbsp;</i>Github
+      </a>     
+        </div>
+        <div class="tabs__content">
+          <h2 class="tabs__title">Contact me</h2>
+          <p class="tabs__text">*under devlopment*</p>
+        </div
       </div>
     </div>
 
-    <div id="userName">
-      @Jeep#6009 
-    </div>
-
-    <div id="links">
-      <a class="link" href="https://github.com/Jeep012" target="_blank">
-        <i class="fab fa-github">&nbsp;</i>Github
-      </a>     
-      <a class="link" href="https://discord.gg/wJ757Sbhg2" target="_blank">
-        <i class="fab fa-discord">&nbsp;</i>Discord Server
-      </a>
-      <a class="link" href="https://twitter.com/JeepOverHondas" target="_blank">
-        <i class="fab fa-twitter">&nbsp;</i>Twitter
-      </a>
-      <a class="link" href="https://www.youtube.com/c/TreasurelessIsOp" target="_blank">
-        <i class="fa fa-play-youtube">&nbsp;</i>YouTube
-      </a>
-      <a class="link" href="https://namemc.com/profile/Treasureless.4" target="_blank">
-        <i class="fab fa-github">&nbsp;</i>NameMC
-      </a>     
-    </div>
-
-    <div id="hashtag">
-      #Potatoes for life
-    </div>
+    <script src="script.js"></script>
   </body>
 </html>
